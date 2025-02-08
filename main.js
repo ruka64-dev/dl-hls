@@ -75,7 +75,7 @@ async function downloadTsFiles(m3u8Url, outputPath) {
 		}
 		await asyncPool.run();
 
-		console.success(`Successfully downloaded ${tsUrls.length + 1} files!`);
+		consola.success(`Successfully downloaded ${tsUrls.length + 1} files!`);
 	} catch (e) {
 		consola.error(e);
 		throw e;
