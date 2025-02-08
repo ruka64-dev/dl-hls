@@ -1,0 +1,13 @@
+{
+	"name": "dl-hls",
+	"version": "1.0.0",
+	"main": "main.js",
+	"author": "ruka64-dev",
+	"license": "MIT",
+	"type": "module",
+	"dependencies": {
+		"axios": "^1.7.9",
+		"consola": "^3.4.0",
+		"fs-extra": "^11.3.0"
+	}
+}
